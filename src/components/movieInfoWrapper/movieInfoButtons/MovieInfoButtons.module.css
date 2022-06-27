@@ -1,0 +1,26 @@
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.play {
+  background-color: #f1f1f1;
+}
+.button {
+  width: 13%;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.moreInfo {
+  background-color: #2727f5;
+}
+.button:hover {
+  cursor: pointer;
+}
+.playIcon {
+  width: 18px;
+  height: 18px;
+}

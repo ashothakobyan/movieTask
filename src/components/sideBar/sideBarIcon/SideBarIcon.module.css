@@ -1,0 +1,29 @@
+.sideBarIcon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  gap: 15px;
+}
+.img {
+  width: 20px;
+  height: 20px;
+}
+.active {
+  width: 40%;
+  height: 30px;
+
+  transition: width 1s;
+}
+
+.sideBarIcon:hover {
+  cursor: pointer;
+}
+.active:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  width: 80%;
+  background-color: #3b486d;
+}
